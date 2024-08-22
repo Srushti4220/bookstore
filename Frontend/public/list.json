@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Fantasy Tales",
+        "title": "Embark on magical adventures with our fantasy collection",
+        "price": 5,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+    },
+    {
+        "id": 1,
+        "name": "Historical Chronicles",
+        "title": "Dive into the past with our detailed historical reads",
+        "price": 7.99,
+        "category": "History",
+        "image": "https://img.freepik.com/free-photo/ancient-bible-page-old-book-table-generated-by-ai_188544-13744.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+    },
+    {
+        "id": 3,
+        "name": "Science Fiction Odyssey",
+        "title": "Explore futuristic worlds with our science fiction picks",
+        "price": 9.99,
+        "category": "science",
+        "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+    },
+    {
+        "id": 4,
+        "name": "Adventure Escapades",
+        "title": "Go on thrilling adventures through our collection",
+        "price": 12,
+        "category": "Advanture",
+         "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+    },
+    {
+        "id": 5,
+        "name": "Mystery Unveiled",
+        "title": "Solve mysteries with our gripping crime and thriller books",
+        "price": 15,
+        "category": "mystery",
+         "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+    },
+    {
+        "id": 6,
+        "name": "Classic Literature",
+        "title": "Enjoy timeless classics from renowned authors",
+        "price": 0,
+        "category": "literature",
+         "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+    },
+    {
+        "id": 7,
+        "name": "Inspirational Stories",
+        "title": "Uplift your spirits with our inspirational and motivations",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+
+    },
+    {
+        "id": 8,
+        "name": "Poetry Collections",
+        "title": "Delight in beautiful poetry from various poets",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+
+    },
+    {
+        "id": 9,
+        "name": "Children’s Fables",
+        "title": "Enjoy delightful fables and stories for children",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+
+    },
+    {
+        "id": 10,
+        "name": "Modern Novels",
+        "title": "Discover the best of contemporary fiction with our novel selection",
+        "price": 10,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?ga=GA1.1.933891719.1723303429&semt=ais_hybrid"
+
+    }
+]
