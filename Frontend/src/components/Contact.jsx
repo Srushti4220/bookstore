@@ -1,15 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Contact() {
   const {
     register,
     handleSubmit,
     formState: { errors },
+    reset, // Import reset here
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    try {
+      // Send POST request to backend API
+      const response = await axios.post("http://localhost:4001/contact/contact", data);
+      
+      // Handle successful response
+      toast.success("Message sent successfully!");
+
+      // Clear the form fields
+      reset();
+      
+      console.log(response.data);
+    } catch (error) {
+      // Handle error response
+      toast.error("An error occurred while sending the message.");
+      console.error("Error:", error);
+    }
+  };
 
   return (
     <div className="flex h-screen items-center justify-center">
@@ -46,11 +66,11 @@ function Contact() {
           {errors.email && <p className="text-red-500">{errors.email.message}</p>}
 
           <textarea
-  placeholder="Type your Message"
-  className="w-full px-3 py-2 border border-gray-300 rounded-md mb-2 resize-none"
-  {...register("msg", { required: "Message is required" })}
-/>
-          {errors.msg && <p className="text-red-500">{errors.msg.message}</p>}
+            placeholder="Type your Message"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md mb-2 resize-none"
+            {...register("message", { required: "Message is required" })}
+          />
+          {errors.message && <p className="text-red-500">{errors.message.message}</p>}
 
           <button
             type="submit"

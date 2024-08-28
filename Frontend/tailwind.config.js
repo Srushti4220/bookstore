@@ -6,7 +6,11 @@ export default {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-pink': '#FFB6C1',
+      },
+    },
   },
   plugins: [
     require('daisyui'),
